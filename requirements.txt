@@ -1,0 +1,7 @@
+yt-dlp
+torch
+ffmpeg-python
+openai-whisper
+pyautogui
+pyperclip
+streamlit
