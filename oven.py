@@ -11,6 +11,10 @@ import json
 import re
 import streamlit as st
 
+def initialize_torch():
+    # Initialize torch only when required
+    return torch.cuda.is_available()
+    
 def file_exist(path):
     """Check if file exists and is not locked."""
     if os.path.exists(path):

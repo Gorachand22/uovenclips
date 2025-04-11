@@ -1,7 +1,5 @@
 yt-dlp
-torch
-ffmpeg-python
+torch==2.6.0+cpu
+ffmpeg-python==0.2.0
 openai-whisper
-pyautogui
-pyperclip
 streamlit
